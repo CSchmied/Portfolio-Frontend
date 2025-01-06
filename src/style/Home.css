@@ -1,0 +1,53 @@
+/* Sets the font for the entire page */
+.page h1 {
+  font-family: "Copperplate";
+}
+/* Makes sure all container tags are the same */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Set alignment for profile picture */
+.image {
+  display: inline-block;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+/* Make picture circular */
+.image img {
+  border-radius: 50%;
+  height: 400px;
+}
+
+/* Set alignment for profile information */
+.text {
+  display: inline-block;
+  margin-left: 75px;
+  padding-left: 75px;
+  vertical-align: middle;
+}
+
+/*  */
+.accordion {
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  border: 2px solid #b3cde0;
+}
+
+.contact {
+    width: 50%;
+    text-align: center;
+}
+
+.contact:hover {
+    background-color: #f2f2f2;
+    border: #b3cde0;
+}
+
+
