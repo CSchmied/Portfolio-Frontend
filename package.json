@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "https://cschmied.github.io/Portfolio-Frontend/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
